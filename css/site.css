@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+:root { 
+    --DarkViolet: hsl(256, 26%, 20%);
+    --GrayishBlue: hsl(216, 30%, 68%);
+    --VeryDarkViolet: hsl(270, 9%, 17%);
+    --DarkGrayishViolet: hsl(273, 4%, 51%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+
+body {
+    
+    font-family: 'DM Serif Display';
+    padding-left: 20px;
+    padding: 20px
+    /*font-weight: 400;*/
+}
+
+
+footer{
+    background-image: url('../images/bg-pattern-footer-desktop.svg');
+    padding-bottom: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Karla';
+    /*font-weight : 400, 700;
+    font-size: 16px;*/
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.nav-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.nav-link{
+    /*float:right;*/
+    /*text-decoration: none;*/
+    display: table-cell;
+    text-align: center;
+    padding: 14px 16px;
+    color: var(--GrayishBlue);
+
+}
+
+.nav-logo{
+    display: table-cell;
+    text-align: left;
+    width: 70%;
+}
+
+.btn-light{
+    color: var(--GrayishBlue);
+    border: 3px solid var(--GrayishBlue);
+    padding: 5px;
+}
+
+.btn-dark{
+    color: var(--DarkViolet);
+    border: 3px solid var(--DarkViolet);
+    padding: 5px;
+}
+
+.row{
+    display:table-row;
+    width: 100%;
+    min-width: 1250px;
+}
+
+.column{
+    display: table-cell;
+    min-width: 280px;
+    width: auto;
+    padding-right: 15px;
+}
+
+.intro {
+    background-color: var(--DarkViolet);
+    color : var(--VeryLightGray);
+
+}
+
+.intro .left{
+    float:left;
+    width: 50%;
+    background-color: inherit;
+}
+
+.intro .right{
+    float:right;
+    text-align:center;
+    width: 50%;
+    background-color: transparent;
+
+}
+
+.intro .right img{
+    width: 350px;
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: -40px;
+}
